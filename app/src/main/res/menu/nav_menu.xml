@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_home_24"
+            android:title="Home"/>
+
+        <item
+            android:id="@+id/nav_notifications"
+            android:icon="@drawable/baseline_notifications_24"
+            android:title="Notification"/>
+
+        <item
+            android:id="@+id/nav_order"
+            android:icon="@drawable/baseline_shopping_cart_24"
+            android:title="Pesanan"/>
+
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/baseline_person_24"
+            android:title="Akun"/>
+    </group>
+
+
+    <item
+        android:title="Tentang Aplikasi">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/baseline_settings_24"
+                android:title="Settings"/>
+            <item
+                android:id="@+id/nav_aboutus"
+                android:icon="@drawable/baseline_info_24"
+                android:title="About Us"/>
+        </menu>
+    </item>
+
+    <item
+        android:title="Keluar Akun">
+
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/baseline_exit_to_app_24"
+                android:title="Logout"/>
+        </menu>
+
+    </item>
+
+</menu>
